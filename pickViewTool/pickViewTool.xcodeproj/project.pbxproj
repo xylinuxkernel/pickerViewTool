@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210805B21C7FE90400F0CF88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210805B11C7FE90400F0CF88 /* main.m */; };
+		210805B51C7FE90400F0CF88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 210805B41C7FE90400F0CF88 /* AppDelegate.m */; };
+		210805B81C7FE90400F0CF88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210805B71C7FE90400F0CF88 /* ViewController.m */; };
+		210805BB1C7FE90400F0CF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210805B91C7FE90400F0CF88 /* Main.storyboard */; };
+		210805BD1C7FE90400F0CF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210805BC1C7FE90400F0CF88 /* Assets.xcassets */; };
+		210805C01C7FE90400F0CF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210805BE1C7FE90400F0CF88 /* LaunchScreen.storyboard */; };
+		210805CB1C7FE90400F0CF88 /* pickViewToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210805CA1C7FE90400F0CF88 /* pickViewToolTests.m */; };
+		210805D61C7FE90400F0CF88 /* pickViewToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210805D51C7FE90400F0CF88 /* pickViewToolUITests.m */; };
+		210805E61C7FE9E400F0CF88 /* PickerToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 210805E51C7FE9E400F0CF88 /* PickerToolView.m */; };
+		210805E91C7FF22A00F0CF88 /* SelectResultAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 210805E81C7FF22A00F0CF88 /* SelectResultAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210805C71C7FE90400F0CF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210805A51C7FE90400F0CF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210805AC1C7FE90400F0CF88;
+			remoteInfo = pickViewTool;
+		};
+		210805D21C7FE90400F0CF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210805A51C7FE90400F0CF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210805AC1C7FE90400F0CF88;
+			remoteInfo = pickViewTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		210805AD1C7FE90400F0CF88 /* pickViewTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickViewTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210805B11C7FE90400F0CF88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		210805B31C7FE90400F0CF88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		210805B41C7FE90400F0CF88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		210805B61C7FE90400F0CF88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		210805B71C7FE90400F0CF88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		210805BA1C7FE90400F0CF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		210805BC1C7FE90400F0CF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		210805BF1C7FE90400F0CF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		210805C11C7FE90400F0CF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210805C61C7FE90400F0CF88 /* pickViewToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickViewToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210805CA1C7FE90400F0CF88 /* pickViewToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickViewToolTests.m; sourceTree = "<group>"; };
+		210805CC1C7FE90400F0CF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210805D11C7FE90400F0CF88 /* pickViewToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickViewToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210805D51C7FE90400F0CF88 /* pickViewToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickViewToolUITests.m; sourceTree = "<group>"; };
+		210805D71C7FE90400F0CF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210805E41C7FE9E400F0CF88 /* PickerToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerToolView.h; sourceTree = "<group>"; };
+		210805E51C7FE9E400F0CF88 /* PickerToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerToolView.m; sourceTree = "<group>"; };
+		210805E71C7FF22A00F0CF88 /* SelectResultAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectResultAlert.h; sourceTree = "<group>"; };
+		210805E81C7FF22A00F0CF88 /* SelectResultAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectResultAlert.m; sourceTree = "<group>"; };
+		210805EA1C7FF29800F0CF88 /* pickerViewTool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickerViewTool.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210805AA1C7FE90400F0CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210805C31C7FE90400F0CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210805CE1C7FE90400F0CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210805A41C7FE90400F0CF88 = {
+			isa = PBXGroup;
+			children = (
+				210805AF1C7FE90400F0CF88 /* pickViewTool */,
+				210805C91C7FE90400F0CF88 /* pickViewToolTests */,
+				210805D41C7FE90400F0CF88 /* pickViewToolUITests */,
+				210805AE1C7FE90400F0CF88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		210805AE1C7FE90400F0CF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210805AD1C7FE90400F0CF88 /* pickViewTool.app */,
+				210805C61C7FE90400F0CF88 /* pickViewToolTests.xctest */,
+				210805D11C7FE90400F0CF88 /* pickViewToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210805AF1C7FE90400F0CF88 /* pickViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				210805E31C7FE9A600F0CF88 /* PickerToolView */,
+				210805B31C7FE90400F0CF88 /* AppDelegate.h */,
+				210805B41C7FE90400F0CF88 /* AppDelegate.m */,
+				210805B61C7FE90400F0CF88 /* ViewController.h */,
+				210805B71C7FE90400F0CF88 /* ViewController.m */,
+				210805B91C7FE90400F0CF88 /* Main.storyboard */,
+				210805BC1C7FE90400F0CF88 /* Assets.xcassets */,
+				210805BE1C7FE90400F0CF88 /* LaunchScreen.storyboard */,
+				210805C11C7FE90400F0CF88 /* Info.plist */,
+				210805B01C7FE90400F0CF88 /* Supporting Files */,
+				210805E71C7FF22A00F0CF88 /* SelectResultAlert.h */,
+				210805E81C7FF22A00F0CF88 /* SelectResultAlert.m */,
+			);
+			path = pickViewTool;
+			sourceTree = "<group>";
+		};
+		210805B01C7FE90400F0CF88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210805B11C7FE90400F0CF88 /* main.m */,
+				210805EA1C7FF29800F0CF88 /* pickerViewTool.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		210805C91C7FE90400F0CF88 /* pickViewToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				210805CA1C7FE90400F0CF88 /* pickViewToolTests.m */,
+				210805CC1C7FE90400F0CF88 /* Info.plist */,
+			);
+			path = pickViewToolTests;
+			sourceTree = "<group>";
+		};
+		210805D41C7FE90400F0CF88 /* pickViewToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				210805D51C7FE90400F0CF88 /* pickViewToolUITests.m */,
+				210805D71C7FE90400F0CF88 /* Info.plist */,
+			);
+			path = pickViewToolUITests;
+			sourceTree = "<group>";
+		};
+		210805E31C7FE9A600F0CF88 /* PickerToolView */ = {
+			isa = PBXGroup;
+			children = (
+				210805E41C7FE9E400F0CF88 /* PickerToolView.h */,
+				210805E51C7FE9E400F0CF88 /* PickerToolView.m */,
+			);
+			name = PickerToolView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210805AC1C7FE90400F0CF88 /* pickViewTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210805DA1C7FE90400F0CF88 /* Build configuration list for PBXNativeTarget "pickViewTool" */;
+			buildPhases = (
+				210805A91C7FE90400F0CF88 /* Sources */,
+				210805AA1C7FE90400F0CF88 /* Frameworks */,
+				210805AB1C7FE90400F0CF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickViewTool;
+			productName = pickViewTool;
+			productReference = 210805AD1C7FE90400F0CF88 /* pickViewTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		210805C51C7FE90400F0CF88 /* pickViewToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210805DD1C7FE90400F0CF88 /* Build configuration list for PBXNativeTarget "pickViewToolTests" */;
+			buildPhases = (
+				210805C21C7FE90400F0CF88 /* Sources */,
+				210805C31C7FE90400F0CF88 /* Frameworks */,
+				210805C41C7FE90400F0CF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210805C81C7FE90400F0CF88 /* PBXTargetDependency */,
+			);
+			name = pickViewToolTests;
+			productName = pickViewToolTests;
+			productReference = 210805C61C7FE90400F0CF88 /* pickViewToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		210805D01C7FE90400F0CF88 /* pickViewToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210805E01C7FE90400F0CF88 /* Build configuration list for PBXNativeTarget "pickViewToolUITests" */;
+			buildPhases = (
+				210805CD1C7FE90400F0CF88 /* Sources */,
+				210805CE1C7FE90400F0CF88 /* Frameworks */,
+				210805CF1C7FE90400F0CF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210805D31C7FE90400F0CF88 /* PBXTargetDependency */,
+			);
+			name = pickViewToolUITests;
+			productName = pickViewToolUITests;
+			productReference = 210805D11C7FE90400F0CF88 /* pickViewToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210805A51C7FE90400F0CF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "徐银";
+				TargetAttributes = {
+					210805AC1C7FE90400F0CF88 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					210805C51C7FE90400F0CF88 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 210805AC1C7FE90400F0CF88;
+					};
+					210805D01C7FE90400F0CF88 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 210805AC1C7FE90400F0CF88;
+					};
+				};
+			};
+			buildConfigurationList = 210805A81C7FE90400F0CF88 /* Build configuration list for PBXProject "pickViewTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210805A41C7FE90400F0CF88;
+			productRefGroup = 210805AE1C7FE90400F0CF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210805AC1C7FE90400F0CF88 /* pickViewTool */,
+				210805C51C7FE90400F0CF88 /* pickViewToolTests */,
+				210805D01C7FE90400F0CF88 /* pickViewToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210805AB1C7FE90400F0CF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210805C01C7FE90400F0CF88 /* LaunchScreen.storyboard in Resources */,
+				210805BD1C7FE90400F0CF88 /* Assets.xcassets in Resources */,
+				210805BB1C7FE90400F0CF88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210805C41C7FE90400F0CF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210805CF1C7FE90400F0CF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210805A91C7FE90400F0CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210805B81C7FE90400F0CF88 /* ViewController.m in Sources */,
+				210805B51C7FE90400F0CF88 /* AppDelegate.m in Sources */,
+				210805E91C7FF22A00F0CF88 /* SelectResultAlert.m in Sources */,
+				210805E61C7FE9E400F0CF88 /* PickerToolView.m in Sources */,
+				210805B21C7FE90400F0CF88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210805C21C7FE90400F0CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210805CB1C7FE90400F0CF88 /* pickViewToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210805CD1C7FE90400F0CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210805D61C7FE90400F0CF88 /* pickViewToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		210805C81C7FE90400F0CF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210805AC1C7FE90400F0CF88 /* pickViewTool */;
+			targetProxy = 210805C71C7FE90400F0CF88 /* PBXContainerItemProxy */;
+		};
+		210805D31C7FE90400F0CF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210805AC1C7FE90400F0CF88 /* pickViewTool */;
+			targetProxy = 210805D21C7FE90400F0CF88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		210805B91C7FE90400F0CF88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210805BA1C7FE90400F0CF88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		210805BE1C7FE90400F0CF88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210805BF1C7FE90400F0CF88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210805D81C7FE90400F0CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		210805D91C7FE90400F0CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210805DB1C7FE90400F0CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pickViewTool/pickerViewTool.pch;
+				INFOPLIST_FILE = pickViewTool/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyin.pickViewTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		210805DC1C7FE90400F0CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pickViewTool/pickerViewTool.pch;
+				INFOPLIST_FILE = pickViewTool/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyin.pickViewTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		210805DE1C7FE90400F0CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pickViewToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyin.pickViewToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickViewTool.app/pickViewTool";
+			};
+			name = Debug;
+		};
+		210805DF1C7FE90400F0CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pickViewToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyin.pickViewToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickViewTool.app/pickViewTool";
+			};
+			name = Release;
+		};
+		210805E11C7FE90400F0CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pickViewToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyin.pickViewToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pickViewTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		210805E21C7FE90400F0CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pickViewToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyin.pickViewToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pickViewTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210805A81C7FE90400F0CF88 /* Build configuration list for PBXProject "pickViewTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210805D81C7FE90400F0CF88 /* Debug */,
+				210805D91C7FE90400F0CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210805DA1C7FE90400F0CF88 /* Build configuration list for PBXNativeTarget "pickViewTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210805DB1C7FE90400F0CF88 /* Debug */,
+				210805DC1C7FE90400F0CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		210805DD1C7FE90400F0CF88 /* Build configuration list for PBXNativeTarget "pickViewToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210805DE1C7FE90400F0CF88 /* Debug */,
+				210805DF1C7FE90400F0CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		210805E01C7FE90400F0CF88 /* Build configuration list for PBXNativeTarget "pickViewToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210805E11C7FE90400F0CF88 /* Debug */,
+				210805E21C7FE90400F0CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210805A51C7FE90400F0CF88 /* Project object */;
+}
